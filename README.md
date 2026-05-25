@@ -137,39 +137,6 @@ main.py
 config.py
 ```
 
----
-
-## Notes
-
-Large artifacts are not included in this repository, including:
-
-- extracted feature files,
-- pretrained checkpoints,
-- challenge datasets,
-- generated submissions.
-
-These files should be placed locally according to the paths defined in the configuration files.
-
----
-
-## Dependencies
-
-Main dependencies include:
-
-- Python 3.10+
-- PyTorch
-- NumPy
-- Pandas
-- scikit-learn
-- tqdm
-
-Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## Acknowledgment
 
