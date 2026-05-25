@@ -10,15 +10,15 @@ import pandas as pd
 # CONFIG
 # =========================================================
 INPUT_CSV = Path(
-    "/home/yassin.terraf/lustre/rsc_mgt_wi-st-sccs-lj7uaansp4q/users/yassin.terraf/polysim_2026_ya_terraf_vF/csv_files/comp/v1_train_English.csv"
+    "./csv_files/comp/v1_train_English.csv"
 )
 
 TRAIN_OUT = Path(
-    "/home/yassin.terraf/lustre/rsc_mgt_wi-st-sccs-lj7uaansp4q/users/yassin.terraf/polysim_2026_ya_terraf_vF/csv_files/comp/v1_train_English_grouped_trainsplit_vF.csv"
+    "./csv_files/comp/v1_train_English_grouped_trainsplit_vF.csv"
 )
 
 VAL_OUT = Path(
-    "/home/yassin.terraf/lustre/rsc_mgt_wi-st-sccs-lj7uaansp4q/users/yassin.terraf/polysim_2026_ya_terraf_vF/csv_files/comp/v1_train_English_grouped_valsplit_vF.csv"
+    "./csv_files/comp/v1_train_English_grouped_valsplit_vF.csv"
 )
 
 TRAIN_RATIO = 0.8
